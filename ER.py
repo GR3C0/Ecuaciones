@@ -8,6 +8,19 @@ P_1 = input("Dame el primer punto: ") #asignación de valores del punto
 P_2 = input("Dame el segundo punto: ")
 
 """ Confirmación de puntos """
+print P_1, ",",  P_2
+print "¿Son estos los puntos?: (S/N)"
+c_1 = raw_input(":")
+
+if c_1 == "S" or "s":
+	print "Todo chachi"
+
+elif c_1 == "N" or "n":
+	print "Dimelos otra vez:"
+	P_1
+	P_2
+
+
 
 v_1 = input("Dame el primer dato del vector: ")
 v_2 = input("Dame el segundo dato del vector: ")
